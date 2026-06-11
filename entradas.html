@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante JCID - Entradas</title>
+    
+    <style>
+        /* Mantenemos el mismo fondo oscuro y letras blancas del index */
+        body {
+            margin: 0;
+            padding: 40px 20px; /* Un poco de espacio arriba y abajo para que no se pegue al borde */
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a; 
+            color: white; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            min-height: 100vh;
+        }
+
+        /* Títulos en dorado como el inicio */
+        h1, h2 {
+            color: #ffcc00;
+            margin-bottom: 20px;
+        }
+
+        /* Estilo para el botón de volver */
+        .btn-volver {
+            color: white;
+            text-decoration: none;
+            background-color: #333;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: 0.3s;
+            margin-bottom: 40px; /* Separa el botón del contenido */
+            display: inline-block;
+        }
+
+        .btn-volver:hover {
+            background-color: #ffcc00;
+            color: black;
+        }
+
+        /* Quitamos los puntitos feos de la lista y la centramos */
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            max-width: 600px; /* Evita que el texto se estire demasiado en pantallas grandes */
+        }
+
+        /* Estilo para cada plato de la lista */
+        li {
+            background-color: #262626; /* Un gris un poco más claro para resaltar el plato */
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* Le da un efecto flotante elegante */
+        }
+
+        /* Estilo para redondear un poco los bordes de tus imágenes */
+        img {
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        p strong {
+            color: #ffcc00; /* Resalta el nombre del plato en dorado */
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="index.html" class="btn-volver">← Volver al Inicio</a>
+
+    <h1>Restaurante JCID</h1>
+    <h2>Nuestras Entradas</h2>
+    
+    <ul>
+        <li>
+            <img src="http://googleusercontent.com/image_collection/image_retrieval/13180862999387917688" alt="Tequeños de queso" width="250">
+            <p><strong>Tequeños Crujientes:</strong> Dedos de masa crujiente rellenos de queso llanero derretido, acompañados de salsa tártara.</p>
+        </li>
+        <li>
+            <img src="https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=500" alt="Ensalada César" width="250">
+            <p><strong>Ensalada César:</strong> Lechuga fresca, croutons crujientes, queso parmesano y nuestro aderezo César especial.</p>
+        </li>
+    </ul>
+
+</body>
+</html>
